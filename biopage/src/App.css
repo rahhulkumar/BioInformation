@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.container, .welcomeContainer{
+  padding: 10px 20px;
+  width: 30%;
+  height: 50vh;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.container div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0 15px;
+}
+.container input{
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.container button{
+  cursor: pointer;
+  width: 100%;
+  background: lightseagreen;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.welcomeContainer{
+  width: 450px;
+  height: auto;
+}
+.welcomeContainer p {
+  line-height: 30px;
+}
