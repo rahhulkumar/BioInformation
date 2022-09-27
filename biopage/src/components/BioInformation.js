@@ -25,7 +25,6 @@ export class BioInformation extends Component {
         const email = event.target.email.value;
         const contact = event.target.contact.value;
         this.setState({isSubmit: true, user: {name, email, contact}} , () => {
-            console.log(this.state)
             this.props.setData(this.state.user)
         })
     }
